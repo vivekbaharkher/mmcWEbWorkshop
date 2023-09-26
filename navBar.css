@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img.logo{
+    width: 220px;
+    height: 60px;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(241, 181, 41);
+    
+  animation-name: header1;
+  animation-duration: 4s;
+}
+
+@keyframes header1 {
+  0%   {background-color: rgb(253, 169, 169);}
+  20%  {background-color: rgb(220, 212, 212);}
+  45%  {background-color: bisque;}
+  50%  {background-color: rgb(161, 255, 255);}
+  100% {background-color: rgb(227, 134, 227);}
+}
+
+.nav-links{
+    list-style:none;
+    
+}
+.nav-links li{
+    margin-top: 10px;
+    display: inline-block;
+    padding-left: 30px;
+    color: azure;
+}
+.nav-links li a{
+    font-size: large;
+    text-decoration: none;
+    color: azure;
+}
+.nav-links li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(36, 22, 106);
+    border-radius: 6px;
+
+}       
+.btn-login{
+    width: 50px;
+    height: 30px;
+    color: blue;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 10px;
+    margin-right: 1px;
+    margin-left: 3px;
+}
+.btn-login:hover{
+    color: rgb(218, 40, 9);
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(200, 186, 241);
+}
+.main-image {
+    padding-top: 50px;
+    height: 400px;
+    width: 500px;
+}
+.main-text {
+    padding-top: 50px;
+    font-family: 'Mooli', sans-serif;
+}
+
+.big{
+    font-size: 65px;
+    color: rgb(253, 253, 253);
+
+}
+.small{
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(137, 136, 136);
+}
+.btn-gts{
+    width: auto;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(42, 216, 239);
+    border-style: none;
+    margin-top: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Mooli', sans-serif;
+}
+.client-area {
+    background-color: #dee2e6;
+    padding-bottom: 30px;
+}
+.ourclients-div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mooli', sans-serif;
+    color: #37517e;
+    font-size: 20px;
+    font-weight: bold;
+}
+.clients-logo-div {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.client-logo {
+    height: 17%;
+    width: 17%;
+    padding-left: 100px;
+}
+.aboutus-div {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mooli', sans-serif;
+    color: #37517e;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo-text{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.about-logo {
+    width: 30%;
+    height: 30%;
+    padding-left: 200px;
+    padding-right: 120px;
+}
+.about-text {
+    padding-right: 120px;
+    font-family: 'Mooli', sans-serif;
+    color: #424750;
+    line-height: 1.5;
+}
+footer{
+    height: 30px;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #37517e;
+    position: fixed;
+}
